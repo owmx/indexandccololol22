@@ -1,0 +1,10 @@
+[build]
+  command = "vite build"
+  publish = "dist/client"
+[dev]
+  command = "npm run dev"
+  targetPort = 3000
+  port = 8888
+
+[images]
+remote_images = ["https://cbu01\\.alicdn\\.com/.*", "https://d1loi7eremk1cu\\.cloudfront\\.net/.*", "https://d1mxsdfi62lbg7\\.cloudfront\\.net/.*", "https://d2bzx2vuetkzse\\.cloudfront\\.net/.*", "https://d2cva83hdk3bwc\\.cloudfront\\.net/.*", "https://d3bwuay7ldfg11\\.cloudfront\\.net/.*", "https://foooound\\.com/.*", "https://global\\-img\\-cdn\\.1688\\.com/.*", "https://i\\.ebayimg\\.com/.*", "https://i\\.etsystatic\\.com/.*", "https://i\\.imgur\\.com/.*", "https://i\\.pinimg\\.com/.*", "https://i\\.postimg\\.cc/.*", "https://images\\.soleretriever\\.com/.*", "https://images\\.stockx\\.com/.*", "https://item\\-shopping\\.c\\.yimg\\.jp/.*", "https://lit\\-buy\\-spreadsheet\\.com/.*", "https://m\\.media\\-amazon\\.com/.*", "https://nhci\\-aigc\\.oss\\-cn\\-zhangjiakou\\.aliyuncs\\.com/.*", "https://s3\\.amazonaws\\.com/.*", "https://shstore\\.eu/.*", "https://si\\.geilicdn\\.com/.*", "https://www\\.basetao\\.com/.*", "https://www\\.mitchellinstrument\\.com/.*", "https://www\\.mrporter\\.com/.*", "https://www\\.soleretriever\\.com/.*"]
